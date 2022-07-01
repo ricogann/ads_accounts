@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url("./background.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 425px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.landing-img{
+    width: 425px;
+    height: 55vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-position-y: -150px;
+
+}
+
+.landing-img-reg{
+    margin-top: 15%;
+    width: 425px;
+    height: 22vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-position-y: -150px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content-landing{
+    background: white;
+    width: 85%;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    margin: 5px auto;
+}
+
+.input-login{
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    background: #fff;
+    border-radius: 20px;
+    border: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.label-input-login{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+h2{
+    font-size: 22px;
+    padding:0 !important;
+    margin: 0 !important;
+    margin-block-start: 0% !important;
+    margin-block-end: 0% !important;
+    letter-spacing: 0.1em;
+    color: #EC7801;
+}
+
+.heading-landing-verif{
+    
+    font-size: 22px;
+    padding:0 !important;
+    margin: 0 !important;
+    margin-block-start: 0% !important;
+    margin-block-end: 0% !important;
+    letter-spacing: 0.1em;
+    color: #8B532E;
+    
+}
+
+.text-landing{
+    margin-top: 5;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.btn-landing{
+    width: 350px;
+    height: 40px;
+    background: #EC7801;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #fff;
+    margin: 5px 0 10px;
+}
